@@ -1,0 +1,143 @@
+p.darkred {
+    
+color:darkred;
+}
+
+p.black {
+    
+    color:black;
+}
+
+/*
+div {
+    
+*/
+    background-color: coral;
+    width: 50%;
+/*    padding: 100px;*/
+/*
+    position:fixed;
+    top: 50px;
+*/
+/*
+    position: absolute;
+    top: 50px;
+    z-index:-100;
+    visibility: hidden;
+*/
+/*    display: none;*/
+/*}*/
+
+/*
+.protest-riot-regular {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+
+.protest-revolution-regular {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+h1.noto-sans-demo {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    
+    color:darkred;
+}
+
+a:visited {
+    color:maroon;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+    background-color: white;
+    transition-property: color;
+    transition-duration: 2;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+}
+
+/*
+img {
+    width: 100%;
+    float: left;
+}
+*/
+
+
+nav > ul > li {
+    
+    list-style-type:none;
+    display:inline-block;
+/*    padding-right: 2em;*/
+    margin: 2%;
+}
+nav {
+    
+    background-color:black;
+}
+
+li > img{
+    
+    width: 10em;
+}
+
+
+body {
+    
+/*    background-image:radial-gradient(grey,white,black);*/
+/*
+    background-image:url("../img/poster.jpg");
+    background-attachment: fixed;
+*/
+/*
+    background-repeat:no-repeat;
+    background-size:contain;
+*/
+}
+
+.movement {
+    animation-name: movement;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+/*    animation-delay: 2s;*/
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes movement{
+    
+    0%, 100% {
+            transform: translate(0,0);
+    }
+    50% {
+        transform: translate(100px,0);
+    }
+}
+
+
+
+
+
+
+
