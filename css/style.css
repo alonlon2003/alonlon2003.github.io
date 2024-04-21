@@ -1,58 +1,222 @@
-p.darkred {
+p.ghostwhite {
     
-color:darkred;
+color:ghostwhite;
 }
 
-p.black {
+p.align {
+    text-align: center;
+}
+
+
+
+.containerr {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+}
+
+.imgtrue {
+  max-width: 100%;
+  max-height:100%;
+}
+
+.text {
+  font-size: 18px;
+}
+
+
+
+.myDIV {
+  height:300px;
+    clear:inherit;
+    text-align: center;
+}
+.blueDIV {
+  width:80px;
+  float:left;
+  padding:10px;
+    clear:right;
+    opacity: 0.4;
+     display: table;
+}
+
+.redDIV {
+  padding:10px;
+  width:80px;
+  float:right;
+    clear:inherit;
+     display: table;
+    opacity: 0.4;
+}
+
+
+
+.div1 {
+    background-color:black;
+    padding-top:150px;
+    padding-bottom: 380px;
+    padding-right: 30px;
+    padding-left: 30px;
+     border: 2px solid red;
+  box-sizing: border-box;
+}
+
+
+
+.signed > * {
+  width: 250px;
+  height: 200px;
+}
+
+.signed > * + * {
+  margin-top: -150px;
+  opacity: 0.8;
+  box-shadow: 0 -1px 10px rgba(0 0 0 / 60%);
+}
+
+.signed > :first-child {
+  border: 2px solid red;
+}
+
+.signed > :nth-child(2) {
+  border: 2px solid white;
+}
+
+.signed > :last-child {
+  border: 2px solid red;
+}
+
+
+
+
+
+
+
+
+
+div.table {
+    padding-top:25px;
+    padding-bottom: 40px;
+    padding-right: 25px;
+    padding-left: 25px;
+    background-color:black;
     
+}
+
+
+div.form {
+    padding-top:25px;
+    padding-bottom: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: white;
+}
+
+
+img.float {
+    float:right;
+width: 700px;
+    height: 500px;
+    position: relative;
+}
+
+
+h1.jacquard-24-regular {
+  font-family: "Jacquard 24", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    font-size:90px;
+    color:white;    
+    background: rgba(90, 90, 90, 0.7);
+    width: 300px;
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 120px;
+    margin-bottom: 500px;
+    
+    
+}
+
+
+
+h2.jacquard-24-regular {
+  font-family: "Jacquard 24", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    font-size:90px;
+    color:white; 
+    background: rgba(90, 90, 90, 0.7);
+    display: inline;
+    
+    
+}
+
+
+
+h2.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    color:white;
+    float:left;
+}
+
+
+
+h1.anton-regular-normal {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    color:white;
+}
+
+
+
+h2.raleway-form {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
     color:black;
 }
 
-/*
-div {
-    
-*/
-    background-color: coral;
-    width: 50%;
-/*    padding: 100px;*/
-/*
-    position:fixed;
-    top: 50px;
-*/
-/*
-    position: absolute;
-    top: 50px;
-    z-index:-100;
-    visibility: hidden;
-*/
-/*    display: none;*/
-/*}*/
 
-/*
-.protest-riot-regular {
-  font-family: "Protest Riot", sans-serif;
-  font-weight: 400;
+
+
+
+p.jersey-25-regular {
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 500;
   font-style: normal;
-}
-*/
-
-
-.protest-revolution-regular {
-  font-family: "Protest Revolution", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-size: 40px;
+    color:white;    
+    background: rgba(90, 90, 90, 0.7);
+    width: 500px;
 }
 
 
-
-h1.noto-sans-demo {
-  font-family: "Noto Sans", sans-serif;
+p.raleway-table {
+  font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 100px;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    color:white;
 }
+
+
+
+
+p.raleway-form {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+    color:black;
+}
+
+
 
 a {
     text-decoration: none;
@@ -60,17 +224,17 @@ a {
 
 a:link {
     
-    color:darkred;
+    color:black;
 }
 
 a:visited {
-    color:maroon;
+    color:red;
 }
 
 a:hover {
     color: black;
     text-decoration: underline;
-    background-color: white;
+    background-color: darkred;
     transition-property: color;
     transition-duration: 2;
     transition-timing-function: ease-in;
@@ -92,10 +256,12 @@ nav > ul > li {
 /*    padding-right: 2em;*/
     margin: 2%;
 }
+
+
 nav {
-    
-    background-color:black;
+  background: rgba(90, 90, 90, 0.5);
 }
+
 
 li > img{
     
@@ -135,6 +301,14 @@ body {
     }
 }
 
+
+<style>
+body {
+  background-image: url("../img/cruellaimage.jpg");
+  background-repeat: no-repeat;
+    background-size: contain;
+}
+</style>
 
 
 
